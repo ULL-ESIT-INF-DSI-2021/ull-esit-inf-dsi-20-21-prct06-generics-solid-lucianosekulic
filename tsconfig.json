@@ -1,7 +1,8 @@
 {
-    "compilerOptions": {
+  "exclude": ["./dist", "./tests", "./node_modules"],
+  "compilerOptions": {
       "target": "ES2020",
       "outDir": "./dist",
       "rootDir": "./src"
     }
-  }
+}

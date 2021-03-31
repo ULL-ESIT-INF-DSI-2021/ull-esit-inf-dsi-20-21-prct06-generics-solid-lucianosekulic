@@ -1,10 +1,13 @@
-import "mocha";
+/*import "mocha";
 import { expect } from "chai";
-import { add } from "../src/rational";
+import { Effectible } from "../src/ejercicio-PE101/effectible";
+import { EffectibleCollection } from "../src/ejercicio-PE101/effectibleCollection";
+import { Rational } from "../src/ejercicio-PE101/rational";
 
 describe("add function tests", () => {
+  let num: Rational[] = 1;
   it("add(1, 8) returns value 9", () => {
-    expect(add([1, 8])).to.be.equal(9);
+    expect(add([1, 8])).to.be.deep.equal(9);
   });
 
   it("substract(-1, 8) returns value 7", () => {
@@ -36,3 +39,4 @@ describe("add function tests", () => {
     expect(multiply([2, 2])).to.be.not.equal(1);
   });
 });
+*/

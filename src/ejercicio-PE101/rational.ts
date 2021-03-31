@@ -1,14 +1,15 @@
 import {Effectible} from './effectible';
 import {EffectibleCollection} from './effectibleCollection';
-
-class Rational<Rational> implements Effectible<Rational> {
-	constructor(private num1: Rational[]) {}
+/*
+export class Rational<Rational> implements Effectible<Rational> {
+	constructor(private num1: Rational[]) {
+		this.num1
+	}
 
 	add(num1: Rational[]) {
 		let result: Rational;
-		for (let i = 0; i < num1.length; i++) {
-			result += num1[i];  
-		}
+	
+		this.num1;  
 		return result;
 	}
 
@@ -34,4 +35,4 @@ class Rational<Rational> implements Effectible<Rational> {
 		return result;
 	}
 }
-
+*/
